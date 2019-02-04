@@ -1,0 +1,12 @@
+<section class = "hero is-success is-fullheight is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Jose Reyes
+      </h1>
+      <h2 class="subtitle">
+        Im a freelance iOS developer, product designer product leader in San Francisco.
+      </h2>
+    </div>
+  </div>
+</section>

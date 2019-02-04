@@ -1,0 +1,21 @@
+{
+  "name": "style-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss ../../Public/styles/bulma-min.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bulma-helpers": "^0.3.6",
+    "font-face": "^2.3.2"
+  }
+}

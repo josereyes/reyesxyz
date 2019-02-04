@@ -1,0 +1,20 @@
+<nav class="level has-padding-bottom-15">
+  <div class="level-left is-flex">
+    <!--Image-->
+    <div class="level-item has-padding-right-15">
+      <figure class="image is-64x64">
+        #if(imageLocation) {
+          <img class="is-rounded border" style="border:#fff 3px solid;" src=#(imageLocation)>
+        }
+        </figure>
+    </div>
+    <!--Full Name-->
+    <div class="level-item">
+      #if(fullName) {
+        <p class="is-size-1 is-family-sans-serif has-text-white" style="font-family: HeldaneDisplayTest-Bold;">
+          #(fullName)
+        </p>
+      }
+    </div>
+  </div>
+</nav>

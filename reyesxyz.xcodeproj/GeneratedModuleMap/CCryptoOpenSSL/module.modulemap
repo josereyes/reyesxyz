@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/josereyes/Projects/websites/reyesxyz/.build/checkouts/crypto.git-4395959144765947265/Sources/CCryptoOpenSSL/include"
+    export *
+}

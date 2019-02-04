@@ -1,0 +1,23 @@
+<div class="navbar-brand">
+  #if(twitter) {
+  <a class="navbar-item" href=#(twitter)>
+    <span class="icon is-medium">
+      <i class="fab fa-2x fa-twitter"></i>
+    </span>
+  </a>
+  }
+  #if(instagram) {
+  <a class="navbar-item" href=#(instagram)>
+    <span class="icon is-medium">
+      <i class="fab fa-2x fa-instagram"></i>
+    </span>
+  </a>
+  }
+  #if(linkedin) {
+  <a class="navbar-item" href="#(linkedin)">
+    <span class="icon is-medium">
+      <i class="fab fa-2x fa-linkedin"></i>
+    </span>
+  </a>
+  }
+</div>
