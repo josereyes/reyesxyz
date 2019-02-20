@@ -214,7 +214,7 @@ a {
   a strong {
     color: currentColor; }
   a:hover {
-    color: #363636; }
+    color: #FEA768; }
 
 code {
   background-color: whitesmoke;
@@ -843,7 +843,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     margin-right: calc(-0.375em - 2px); }
   .button:hover, .button.is-hovered {
     border-color: #D0D1CD;
-    color: #363636; }
+    color: #FEA768; }
   .button:focus, .button.is-focused {
     border-color: #3273dc;
     color: #363636; }
@@ -3107,7 +3107,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #209cee;
-    color: #fff; }
+    color: #FEA768; }
 
 .navbar-item {
   display: block;

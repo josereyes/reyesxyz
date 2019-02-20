@@ -18,11 +18,15 @@ public func configure(
   config.prefer(LeafRenderer.self, for: ViewRenderer.self)
   
   var middlewareConfig = MiddlewareConfig()
-  middlewareConfig.use(FileMiddleware.self)
+  services.register(StreamableFileMiddleware.self)
+  middlewareConfig.use(StreamableFileMiddleware.self)
   services.register(middlewareConfig)
   
-  var tags = LeafTagConfig.default()
-  tags.use(MarkdownTag(), as: "markdown")
-  tags.use(LinkTag(), as: "link")
-  services.register(tags)
+//  var tags = LeafTagConfig.default()
+//  tags.use(MarkdownTag(), as: "markdown")
+//  tags.use(LinkTag(), as: "link")
+//  services.register(tags)
+  
+//  let serverConfigure = NIOServerConfig.default(hostname: "0.0.0.0", port: 8080)
+//  services.register(serverConfigure)
 }

@@ -16,9 +16,10 @@ do {
         environment: env,
         services: services
     )
+
     
-    try App.boot(app)
-    
+//    try App.boot(app)
+  
     try app.run()
 } catch {
     print(error)

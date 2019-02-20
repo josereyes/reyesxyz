@@ -25,6 +25,7 @@ $beige-lighter: #EFF0EB;
 $dark-gray: #2F2F2F;
 $white: #fff;
 $cyan: hsl(204, 86%, 53%);
+$entry-orange: #FEA768;
 
 // Update Bulma's global variables
 $family-sans-serif: "HeldaneDisplayTest-Bold", sans-serif;
@@ -41,7 +42,8 @@ $img-is-rounded-border: #fff 3px solid;
 $navbar-item-color: $white;
 $navbar-item-hover-background-color: $cyan;
 $container-padding: 50px;
-
+$link-hover: $entry-orange;
+$navbar-item-hover-color: $entry-orange;
 
 // Update some of Bulma's component variables
 $body-background-color: $dark-gray;

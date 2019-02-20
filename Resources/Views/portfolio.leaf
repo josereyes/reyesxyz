@@ -1,12 +1,68 @@
-<section class = "hero is-success is-fullheight is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Jose Reyes
-      </h1>
-      <h2 class="subtitle">
-        Im a freelance iOS developer, product designer product leader in San Francisco.
-      </h2>
-    </div>
+<section id= "portfolio" class = "hero is-fullheight is-bold">
+  <div class="hero-body is-paddingless">
+    <article id="slider">
+      <input checked type='radio' name='slider' id='slide1'/>
+      <input type='radio' name='slider' id='slide2'/>
+      <input type='radio' name='slider' id='slide3'/>
+      <div id="slides">
+        <div id="container">
+          <div class="inner">
+            <article class="slide orange">
+              <div class="overlay_container">
+                <div id="overlay_image"><img src="images/iPhoneXFrame.svg"/></div>
+                <div id="masked">
+                  <video loop autoplay muted playsinline>
+                    <source autoplay src="videos/entry-2.mp4">
+                      <!--                    <source src="movie.ogg" type="video/ogg">-->
+                      <!--                      </video>-->
+                      </div>
+                <div id="role">
+                  <h2>Founder • Developer • Designer</h2>
+                </div>
+              </div>
+            </article>
+            <article class="slide blue">
+              <div class="overlay_container">
+                <div id="overlay_image"><img src="images/iPhoneXFrame.svg"/></div>
+                <div id="masked">
+                  <video loop autoplay muted playsinline>
+                    <source autoplay src="videos/core.mp4">
+                      <!--                    <source src="movie.ogg" type="video/ogg">-->
+                      <!--                      </video>-->
+                      </div>
+                <div id="role">
+                  <h2>Developers • UI/UX Designer</h2>
+                </div>
+              </div>
+            </article>
+            <article class="slide teal">
+              <div class="overlay_container">
+                <div id="overlay_image"><img src="images/iPhoneXFrame.svg"/></div>
+                <div id="masked">
+                  <video loop autoplay muted playsinline>
+                    <source autoplay src="videos/entry-2.mp4">
+                      <!--                    <source src="movie.ogg" type="video/ogg">-->
+                      <!--                      </video>-->
+                      </div>
+                <div id="role">
+                  <h2>Project Lead • Product Manager</h2>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div id="commands">
+        <label class="arrow" for='slide1'></label>
+        <label class="arrow" for='slide2'></label>
+        <label class="arrow" for='slide3'></label>
+        <div id="active">
+          <label for='slide1'></label>
+          <label for='slide2'></label>
+          <label for='slide3'></label>
+        </div>
+      </div>
+
+    </article>
   </div>
 </section>

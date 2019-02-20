@@ -7,8 +7,6 @@
 
 import Foundation
 import Leaf
-import Markdown
-import SwiftSlug
 import Vapor
 
 class FrontEnd: RouteCollection {
@@ -23,7 +21,7 @@ class FrontEnd: RouteCollection {
     do {
       let data = try Data(contentsOf: URL(fileURLWithPath: directory.workDir)
         .appendingPathComponent(configDir, isDirectory: true)
-        .appendingPathComponent("creator.json", isDirectory: false))
+        .appendingPathComponent("creatordata.json", isDirectory: false))
       
       let decoder = JSONDecoder()
       let creator = try decoder.decode(Creator.self, from: data)

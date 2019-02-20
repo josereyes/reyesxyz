@@ -6,10 +6,10 @@
 //
 
 import Foundation
-import FluentMySQL
+//import FluentMySQL
 import Vapor
 
-struct Creator: Codable, MySQLModel, Migration {
+struct Creator: Codable {//, //MySQLModel, Migration {
   var id: Int?
   var fullName: String
   var description: String

@@ -5,17 +5,19 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>#(fullName)</title>
         <link rel="stylesheet" href="styles/bulma-min.css">
+          <link rel="stylesheet" href="styles/masked.css">
+            <link rel="stylesheet" href="styles/slider.css">
           <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
           </link>
       </meta>
     </meta>
   </head>
   <body>
-    <div class="columns">
-      <div class="column is-half">
+    <div class="columns is-marginless">
+      <div class="column is-paddingless is-half">
         #get(about)
       </div>
-      <div class="column is-half">
+      <div class="column is-paddingless is-half">
         #embed("portfolio")
       </div>
     </div>
