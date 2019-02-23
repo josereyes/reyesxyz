@@ -1,0 +1,7 @@
+#if(item.mediaType == "video") {
+<div class="masked #if(item.contentType == "Desktop") { masked_desktop }">
+  <video loop autoplay muted playsinline #if(item.contentType == "Desktop") { id="video_desktop" }>
+    <source autoplay src="#(item.mediaURLPath)"></source>
+  </video>
+</div>
+}

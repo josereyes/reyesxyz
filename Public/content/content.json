@@ -1,0 +1,35 @@
+{
+  "items":
+  [
+    {
+      "projectName"       : "Entry",
+      "mediaURLPath"      : "videos/entry.mp4",
+      "iconURLPath"       : "images/entrylogo.png",
+      "mediaType"         : "video",
+      "contentType"       : "iPhoneX",
+      "role"              : "Founder • Developer • Designer",
+      "description"       : "Blah",
+      "backgroundColor"   : "orange"
+    },
+    {
+      "projectName"       : "Core",
+      "mediaURLPath"      : "videos/core.mp4",
+      "iconURLPath"       : "images/corelogo.png",
+      "mediaType"         : "video",
+      "contentType"       : "iPhoneX",
+      "role"              : "Developer • UI/UX Designer",
+      "description"       : "Blah",
+      "backgroundColor"   : "blue"
+    },
+    {
+      "projectName"       : "Manifest",
+      "mediaURLPath"      : "videos/manifest.mp4",
+      "iconURLPath"       : "images/manifest.png",
+      "mediaType"         : "video",
+      "contentType"       : "Desktop",
+      "role"              : "Project Lead • Product Manager",
+      "description"       : "Blah",
+      "backgroundColor"   : "teal"
+    }
+  ]
+}

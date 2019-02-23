@@ -1,0 +1,10 @@
+<div id="commands">
+  #for(item in portfolioItems) {
+  <label class="arrow" for='slide#(index + 1)'></label>
+  }
+  <div id="active">
+    #for(item in portfolioItems) {
+    <label for='slide#(index + 1)'></label>
+    }
+  </div>
+</div>

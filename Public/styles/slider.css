@@ -69,15 +69,18 @@ article img{
   padding-bottom: 45px;
 }
 
-#role{
+.role{
   width: 100%;
-/*  margin-left: auto;*/
-/*  margin-right: auto;*/
   text-align: center;
-  margin-top: 5px;
+  margin-top: 7%;
   color: #fff;
   font-size: 1.3rem
 }
+
+.desktop_role{
+  margin-top: 5%;
+}
+
 #commands{
   position: absolute;
   left: 0;
@@ -225,7 +228,3 @@ article img{
   }
 }
 
-video {
-  height: 100%;
-  max-width: auto;
-}

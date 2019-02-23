@@ -28,6 +28,7 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+*.docker-compose.yml
 
 ## Playgrounds
 timeline.xctimeline

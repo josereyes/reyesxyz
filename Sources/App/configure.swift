@@ -22,11 +22,6 @@ public func configure(
   middlewareConfig.use(StreamableFileMiddleware.self)
   services.register(middlewareConfig)
   
-//  var tags = LeafTagConfig.default()
-//  tags.use(MarkdownTag(), as: "markdown")
-//  tags.use(LinkTag(), as: "link")
-//  services.register(tags)
-  
-//  let serverConfigure = NIOServerConfig.default(hostname: "0.0.0.0", port: 8080)
-//  services.register(serverConfigure)
+  let serverConfigure = NIOServerConfig.default(hostname: "0.0.0.0", port: 9091)
+  services.register(serverConfigure)
 }

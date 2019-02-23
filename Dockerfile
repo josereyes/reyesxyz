@@ -15,8 +15,8 @@ RUN apt-get -qq update && apt-get install -y \
   tzdata \
   && rm -r /var/lib/apt/lists/*
 WORKDIR /app
-COPY Resources/ ./Resources/
-COPY Public/ ./Public/
+COPY Resources/ Resources/
+COPY Public/ Public/
 COPY --from=builder /build/bin/Run .
 COPY --from=builder /build/lib/* /usr/lib/
 EXPOSE 8080

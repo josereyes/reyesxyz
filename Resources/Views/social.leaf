@@ -1,22 +1,29 @@
 <div class="navbar-brand">
-  #if(twitter) {
-  <a class="navbar-item" href=#(twitter)>
+  #if(creator.twitter) {
+  <a class="navbar-item" href="https://twitter.com/#(creator.twitter)">
     <span class="icon is-medium">
       <i class="fab fa-2x fa-twitter"></i>
     </span>
   </a>
   }
-  #if(instagram) {
-  <a class="navbar-item" href=#(instagram)>
+  #if(creator.instagram) {
+  <a class="navbar-item" href="https://instagram.com/#(creator.instagram)">
     <span class="icon is-medium">
       <i class="fab fa-2x fa-instagram"></i>
     </span>
   </a>
   }
-  #if(linkedin) {
-  <a class="navbar-item" href="#(linkedin)">
+  #if(creator.linkedin) {
+  <a class="navbar-item" href="https://linkedin.com/in/#(creator.linkedin)">
     <span class="icon is-medium">
       <i class="fab fa-2x fa-linkedin"></i>
+    </span>
+  </a>
+  }
+  #if(creator.github) {
+  <a class="navbar-item" href="https://github.com/#(creator.github)">
+    <span class="icon is-medium">
+      <i class="fab fa-2x fa-github"></i>
     </span>
   </a>
   }

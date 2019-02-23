@@ -1,4 +1,4 @@
-#if(email) {
+#if(creator.email) {
 <footer class="footer" style="padding-bottom: 2rem;">
   <div class="content has-text-centered">
     <h2 class="subtitle has-text-light is-size-4">

@@ -1,0 +1,19 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="#(creator.description)" />
+<meta name="keywords" content="#(creator.keywords)" />
+<meta property="og:title" content="#(creator.fullName)" />
+<meta property="og:description" content="#(creator.description)" />
+<meta property="og:url" content="#(portfolioURL)" />
+
+#if(websiteInfo.metatagImageLocation) {
+  <meta property="og:image" content="#(websiteInfo.portfolioURL)#(websiteInfo.metatagImageLocation)" />
+  <meta name="twitter:image" content="#(websiteInfo.portfolioURL)#(websiteInfo.metatagImageLocation)" />
+}
+
+#if(creator.twitter) {
+  <meta name="twitter:title" content="#(creator.fullName)" />
+  <meta name="twitter:description" content="#(creator.description)" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@#(creator.twitter)" />
+}

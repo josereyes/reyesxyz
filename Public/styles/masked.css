@@ -1,34 +1,66 @@
-#overlay_image {
+.overlay_image {
   max-width: 100%;
   position: absolute;
   left: 0;
   margin: auto;
   z-index: 1;
-  /* transform: scale(1.052); */
   bottom: 0;
   top: 0;
-  right: 0;
-  max-height: 100%;
+  right: 2%;
+  left: 2%;
+  max-height: 60%
 }
 
-#overlay_image img {
+.overlay_image img {
   max-height: 100%;
   max-width: 100%;
-  display: block;
+  display: block
 }
 
-#masked {
-  width: 100%;
-  height: 600px;
+.overlay_desktop {
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 90%
+}
+
+.masked {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  z-index: 0;
-  transform: scale(0.90) translateX(1px) translateY(-20px);
+  width: auto;
+  height: auto;
+  z-index: 0
+}
+
+.overlay_desktop img {
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block
+}
+
+.masked_desktop {
+  width: 90%;
+  height: auto;
 }
 
 .overlay_container {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+video {
+  transform: translateY(-3px) scale(0.57) translateX(3px);
+}
+
+.masked_desktop video {
+  height: auto;
+  max-width: 100%;
+  transform: translateY(-6%) scale(0.700);
+}
+
+.portfolio_item_container {
+  margin-left: auto;
+  margin-right: auto
 }

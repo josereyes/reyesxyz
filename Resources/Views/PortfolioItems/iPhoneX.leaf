@@ -1,0 +1,8 @@
+#if(item.contentType == "iPhoneX") {
+<div class="overlay_image">
+  <img src="images/masks/iPhoneX.svg"/>
+  <div class="role" >
+    <h2>#(item.role)</h2>
+  </div>
+</div>
+}
