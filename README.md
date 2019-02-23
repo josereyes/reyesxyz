@@ -32,9 +32,9 @@ The site is quite simple: one page with two sides, left and right.
 ├── ...
 ├── Public
 │   ├── content            
-│    |     ├── content.json  # Contains every portfolio item
-│    |     ├── creator.json  # Details about you, your name and description and your socials
-│    |     ├── website.json  # Details about the website, primarily for meta tags
+│   |     ├── content.json  # Contains every portfolio item
+│   |     ├── creator.json  # Details about you, your name and description and your socials
+│   |     ├── website.json  # Details about the website, primarily for meta tags
 │   └── ...                 # etc.
 └── ...
 ```
