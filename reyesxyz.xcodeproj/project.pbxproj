@@ -3896,6 +3896,7 @@
 
 /* Begin PBXFileReference section */
 		AF094AA32221349D0003A96F /* WebsiteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteInfo.swift; sourceTree = "<group>"; };
+		AF094AA622213B060003A96F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AFEF814D221E140B001A3C0F /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
 		AFEF814E221E3776001A3C0F /* PortfolioItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioItem.swift; sourceTree = "<group>"; };
 		AFEF8150221E3940001A3C0F /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
@@ -5387,13 +5388,6 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		OBJ_17 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
 		OBJ_173 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -6455,14 +6449,14 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_6 /* Package.swift */,
-				AFEF814D221E140B001A3C0F /* Dockerfile */,
 				OBJ_7 /* Sources */,
-				OBJ_17 /* Tests */,
 				OBJ_18 /* Resources */,
 				OBJ_19 /* Public */,
 				OBJ_20 /* Dependencies */,
 				OBJ_693 /* Products */,
+				OBJ_6 /* Package.swift */,
+				AFEF814D221E140B001A3C0F /* Dockerfile */,
+				AF094AA622213B060003A96F /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
