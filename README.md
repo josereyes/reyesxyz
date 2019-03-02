@@ -7,8 +7,6 @@ The site is quite simple: one page with two sides, left and right.
   - The left side contains name, photo, description, social links
   - The right side contains a carousel of portfolio items, either video (which autoplay) or photos. 
   
-  This site is 100% content driven, there is no code change required to add or remove portfolio items
-
 ### Directory
 
 ```
@@ -25,7 +23,7 @@ The site is quite simple: one page with two sides, left and right.
 
 ### Configuration Steps
 
-100% of all configuration can be done by just modifying assetds including three json files and any images or videos you'd like to share in the site 
+100% of all configuration can be done by just modifying assets including three json files and any images or videos you'd like to share in the site.
 
 ```
 .
