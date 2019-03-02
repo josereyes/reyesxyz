@@ -1,6 +1,6 @@
 # Jose Reyes Portfolio (http://reyes.xyz)
 
-This is a portfolio website built with Swift using Vapor
+A portfolio website written in Swift + Vapor
 
 ![alt text](https://reyes.xyz/images/screenshots/metatag_image.png "Portfolio Screenshot")
 
