@@ -21,7 +21,4 @@ public func configure(
   services.register(StreamableFileMiddleware.self)
   middlewareConfig.use(StreamableFileMiddleware.self)
   services.register(middlewareConfig)
-  
-  let serverConfigure = NIOServerConfig.default(hostname: "0.0.0.0", port: 9091)
-  services.register(serverConfigure)
 }

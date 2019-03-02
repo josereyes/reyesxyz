@@ -1,8 +1,11 @@
 #if(item.contentType == "iPhoneX") {
 <div class="overlay_image">
+  #if(item.iconURLPath) {
+    <div class="portfolio_icon"><img src="#(item.iconURLPath)"/></div>
+  }
   <img src="images/masks/iPhoneX.svg"/>
-  <div class="role" >
-    <h2>#(item.role)</h2>
+  <div class="role">
+    <h2 class="is-family-secondary">#(item.role)</h2>
   </div>
 </div>
 }

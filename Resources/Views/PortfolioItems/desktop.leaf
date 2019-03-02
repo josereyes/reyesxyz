@@ -1,9 +1,8 @@
 #if(item.contentType == "Desktop") {
 <div class="overlay_image overlay_desktop">
   <img src="images/masks/desktop.svg"/>
-  
   <div class="role desktop_role" >
-    <h2>#(item.role)</h2>
+    <h2 class="is-family-secondary">#(item.role)</h2>
   </div>
 </div>
 }

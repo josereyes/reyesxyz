@@ -10,10 +10,15 @@
             #for(item in portfolioItems) {
               <article class="slide #(item.backgroundColor)">
                 <div class="portfolio_item_container">
+                  #if(item.contentType == "Desktop") {
+                    #if(item.iconURLPath) {
+                      <div class="portfolio_icon"><img src="#(item.iconURLPath)"/></div>
+                      }
+                  }
                   <div class="overlay_container">
-                  #embed("PortfolioItems/iPhoneX")
-                  #embed("PortfolioItems/desktop")
-                  #embed("ContentItems/video")
+                    #embed("PortfolioItems/iPhoneX")
+                    #embed("PortfolioItems/desktop")
+                    #embed("ContentItems/video")
                   </div>
                 </div>
               </article>

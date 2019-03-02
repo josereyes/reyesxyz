@@ -8,7 +8,7 @@
   top: 0;
   right: 2%;
   left: 2%;
-  max-height: 60%
+  max-height: 45%
 }
 
 .overlay_image img {
@@ -47,11 +47,19 @@
 .overlay_container {
   position: relative;
   margin-left: auto;
+  margin-right: auto
+}
+
+.portfolio_icon {
+  height: 46px;
+  width: 46px;
+  margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px
 }
 
 video {
-  transform: translateY(-3px) scale(0.57) translateX(3px);
+  transform: translateY(70px) scale(0.427) translateX(2px)
 }
 
 .masked_desktop video {
@@ -63,4 +71,48 @@ video {
 .portfolio_item_container {
   margin-left: auto;
   margin-right: auto
+}
+
+@media screen and (min-height: 1050px) and (min-width: 1200px) {
+  .overlay_image {
+    max-height: 70%
+  }
+  
+  video {
+    transform: translateY(70px) scale(0.668) translateX(2px)
+  }
+  
+  .masked_desktop video {
+    height: auto;
+    max-width: 100%;
+    transform: translateY(-6%) scale(0.700);
+  }
+  
+  .overlay_desktop {
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 90%
+  }
+}
+
+@media screen and (min-height: 1500px) and (min-width: 1300px) {
+  .overlay_image {
+    max-height: 100%
+  }
+  
+  video {
+    transform: translateY(1%) scale(0.8499) translateX(3px)
+  }
+  
+  .masked_desktop video {
+    height: auto;
+    max-width: 100%;
+    transform: translateY(-6%) scale(0.700);
+  }
+  
+  .overlay_desktop {
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 90%
+  }
 }

@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bulma": "^0.7.2",
+    "bulma": "^0.7.4",
     "node-sass": "^4.11.0"
   },
   "dependencies": {

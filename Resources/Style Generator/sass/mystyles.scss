@@ -13,8 +13,9 @@
     }
   }
 
-@include font('HeldaneDisplayTest-Bold', '../../fonts/HeldaneDisplayWeb-Bold');
-@include font('HeldaneDisplayTest-Regular', '../../fonts/HeldaneDisplayWeb-Regular');
+@include font('HeldaneDisplay-Bold', '../../fonts/HeldaneDisplayWeb-Bold');
+@include font('HeldaneDisplay-Regular', '../../fonts/HeldaneDisplayWeb-Regular');
+@include font('Pitch-Regular', '../../fonts/PitchWeb-Regular');
 
 // Set your brand colors
 $purple: #8A4D76;
@@ -28,8 +29,9 @@ $cyan: hsl(204, 86%, 53%);
 $entry-orange: #FEA768;
 
 // Update Bulma's global variables
-$family-sans-serif: "HeldaneDisplayTest-Bold", sans-serif;
-$family-primary: "HeldaneDisplayTest-Regular", sans-serif;
+$family-sans-serif: "HeldaneDisplay-Bold", serif;
+$family-primary: "HeldaneDisplay-Regular", serif;
+$family-secondary: "Pitch-Regular", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
@@ -54,7 +56,6 @@ $input-shadow: none;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
-
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/form.sass";
