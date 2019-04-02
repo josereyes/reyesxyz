@@ -25,4 +25,5 @@ struct Creator: Codable {
   var instagram: String?
   var github: String?
   var email: String?
+  var resume: String?
 }

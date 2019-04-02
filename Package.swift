@@ -5,7 +5,7 @@ let package = Package(
   name: "portfolio",
   dependencies: [
     // 💧 A server-side Swift web framework.
-    .package(url: "https://github.com/vapor/vapor.git", .upToNextMinor(from: "3.1.0")),
+    .package(url: "https://github.com/vapor/vapor.git", .upToNextMinor(from: "3.3.0")),
     .package(url: "https://github.com/vapor/leaf.git", .upToNextMinor(from: "3.0.0"))
   ],
   targets: [

@@ -27,4 +27,9 @@
     </span>
   </a>
   }
+  #if(creator.resume) {
+  <h2 class="subtitle has-text-light is-size-4 has-padding-top-10 has-padding-left-10">
+    <a href="#(creator.resume)" download><u>Resume</u></a>
+  </h2>
+  }
 </div>
